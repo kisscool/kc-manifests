@@ -1,0 +1,3 @@
+[submodule "puppetlabs-ntp"]
+	path = puppetlabs-ntp
+	url = http://github.com/puppetlabs/puppetlabs-ntp.git
