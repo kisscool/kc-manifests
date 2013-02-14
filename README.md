@@ -6,8 +6,8 @@ Personal Puppet manifests
 Quick run
 ---------
 
-Just do a (do not forget to add a --noop if you just want to test) :
+Just do the following :
 
-	puppet apply --modulepath=/home/kisscool/kc-manifests/ -e "include kisscool" -v
+	$ puppet apply --modulepath=/home/kisscool/kc-manifests/ -e "include kisscool" -v
 
-
+do not forget to add - --noop if you just want to test.
