@@ -1,0 +1,19 @@
+#############################
+# options generales du jeu
+OPTIONS=hilite_pet
+OPTIONS=!autopickup
+OPTIONS=color
+OPTIONS=number_pad:1
+OPTIONS=showrace
+OPTIONS=DECgraphics
+
+#############################
+# options du patch menucolor
+OPTIONS=menucolors
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
+
+

@@ -1,0 +1,11 @@
+name    'kisscool'
+version '0.0.1'
+source 'git://github.com/kisscool/kc-manifests'
+author 'KissCool'
+license 'Personal work'
+summary 'KissCool Home configuration'
+description 'Module to configure my home sweet home'
+project_page 'http://github.com/kisscool/kc-manifests'
+
+## Add dependencies, if any:
+#dependency 'puppetlabs/stdlib', '>= 0.1.6'
