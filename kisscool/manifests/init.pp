@@ -20,7 +20,7 @@
 #
 # [Remember: No empty lines between comments and class definition]
 class kisscool(
-  $name='kisscool'
+  $username='kisscool'
 ) {
 
   # standard check
@@ -46,7 +46,7 @@ class kisscool(
 
     file { "/home/${name}/plop":
       ensure  => directory,
-      owner   => $name,
+      owner   => $username,
       mode    => 755,
       recurse => remote,
       purge   => false,
