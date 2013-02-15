@@ -51,7 +51,7 @@ class kisscool(
     file { "/home/${name}":
       ensure  => directory,
       owner   => $username,
-      mode    => 755,
+      mode    => 700,
       recurse => remote,
       purge   => false,
       source  => "puppet:///modules/kisscool/dotfiles/",
