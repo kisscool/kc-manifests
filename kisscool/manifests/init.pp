@@ -17,6 +17,10 @@
 # Sample Usage:
 #
 #   class { "kisscool"}
+# or
+#   class { "kisscool":
+#     username => 'plop',
+#   }
 #
 # [Remember: No empty lines between comments and class definition]
 class kisscool(
@@ -44,14 +48,13 @@ class kisscool(
   # actual configuration code
   if ($supported == true) {
 
-    file { "/home/${name}/plop":
+    file { "/home/${name}":
       ensure  => directory,
       owner   => $username,
       mode    => 755,
       recurse => remote,
       purge   => false,
       source  => "puppet:///modules/kisscool/dotfiles/",
-      #require => User[$name],
     }
     # pour multi-users :
     # source => [ "puppet://$servername/modules/$name/", "puppet://$servername/modules/skel/" ],
