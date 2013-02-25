@@ -48,7 +48,7 @@ class kisscool(
   # actual configuration code
   if ($supported == true) {
 
-    file { "/home/${name}":
+    file { "/home/${username}":
       ensure  => directory,
       owner   => $username,
       mode    => 640,

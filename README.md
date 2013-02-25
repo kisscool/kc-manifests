@@ -8,6 +8,10 @@ Quick run
 
 Just do the following :
 
-	$ puppet apply --modulepath=/home/kisscool/kc-manifests/ -e "include kisscool" -v
+	$ puppet apply --modulepath=/home/kisscool/kc-manifests/ -e "include kisscool"
 
-do not forget to add - --noop if you just want to test.
+or
+
+	$ puppet apply --modulepath=/home/othername/kc-manifests/ -e "class {'kisscool': username => 'othername'}"
+
+do not forget to add --noop if you just want to test.
