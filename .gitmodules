@@ -1,3 +1,9 @@
 [submodule "puppetlabs-ntp"]
 	path = puppetlabs-ntp
 	url = http://github.com/puppetlabs/puppetlabs-ntp.git
+[submodule "kisscool/files/dotfiles/.vim/bundle/nerdtree"]
+	path = kisscool/files/dotfiles/.vim/bundle/nerdtree
+	url = http://github.com/scrooloose/nerdtree
+[submodule "kisscool/files/dotfiles/.vim/bundle/vim-gitgutter"]
+	path = kisscool/files/dotfiles/.vim/bundle/vim-gitgutter
+	url = http://github.com/airblade/vim-gitgutter
